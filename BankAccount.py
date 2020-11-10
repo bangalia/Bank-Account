@@ -35,11 +35,14 @@ def print_receipt():
     print(balance)
 
 
-amanda=BankAccount(amanda,Amanda Johnson,832998213,162738490,845)
+amanda=BankAccount(amanda, Amanda Johnson, 83298213,162738490,845)
 
 deposit(amanda,60)
 
-phil=BankAccount(phil, Phil Colins, 82031892,162738490,23)
+phil=BankAccount(phil, Phil Colins, 82031892, 162738490,23)
 
 print_receipt(phil)
 
+charles=BankAccount(charles, Charles Bronson, 45621271,162738490,2380)
+
+addinterest(charles)
