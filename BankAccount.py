@@ -1,3 +1,7 @@
 class BankAccount:
-    def __init__(full_name,account_number,routing_number,balance):
-    
+    def __init__(self,full_name,account_number,routing_number,balance):
+        self.full_name
+        self.account_number
+        self.routing_number
+        self.balance
+        
