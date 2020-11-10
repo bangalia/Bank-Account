@@ -21,5 +21,14 @@ def getbalance():
     return balance
     print(f"Hello {full_name}! Your balance is {balance}")
 
+def addinterest():
+    interest = balance * 0.00083
+    newbalance = balance + interest 
+
+def print_receipt():
+    print(full_name)
+    print(account_number)
+    print(routing_number)
+    print(balance)
 
         
