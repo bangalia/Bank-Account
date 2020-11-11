@@ -11,8 +11,8 @@ class BankAccount:
         
 def deposit(self,amount):
     self.balance += amount
-    amount = input("How much would you like to deposit?"))
-    print(f"Amount deposited was ${amount}")
+    amount = input("How much would you like to deposit?")
+print(f"Amount deposited was ${amount}")
 
 def withdraw(self,amount):
     overdraft= 10
@@ -39,13 +39,12 @@ def print_receipt():
     print(routing_number)
     print(balance)
 
-
-amanda = BankAccount(Amanda Fuller,account_number,2380)
+amanda = BankAccount("Amanda_Fuller",account_number,2380)
 
 amanda.getbalance()
 
-phil = BankAccount(Phil Collins,account_number,763)
+phil = BankAccount("Phil Collins",account_number,763)
 
 phil.print_receipt()
 
-charles = BankAccount(Charles Bronson,account_number,25)
+charles = BankAccount("Charles Bronson",account_number,25)
