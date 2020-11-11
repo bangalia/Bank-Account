@@ -1,17 +1,22 @@
-class BankAccount:
-    def __init__(self,full_name,account_number,routing_number,balance):
-        self.full_name = full_name
-        self.account_number = account_number
-        self.routing_number = routing_number
-        self.balance = balance
+from random import random 
 
+class BankAccount:
+    routing_number = 162738490
+
+class BankAccount:
+    def __init__(self,full_name,account_number,balance):
+        self.full_name = full_name
+        self.account_number = randint()
+        self.balance = int(balance)
+        
 def deposit(self,amount):
     self.balance += amount
-    amount = int(input("How much would you like to deposit?"))
+    amount = input("How much would you like to deposit?"))
     print(f"Amount deposited was ${amount}")
 
 def withdraw(self,amount):
     overdraft= 10
+    amount = int(input("How much would you like to withdraw?"))
     if self.balance>=amount:
         self.balance-=amount
         print("You withdrew:$",amount)
@@ -35,14 +40,12 @@ def print_receipt():
     print(balance)
 
 
-amanda=BankAccount(amanda, Amanda Johnson, 83298213,162738490,845)
+amanda = BankAccount(Amanda Fuller,account_number,2380)
 
-deposit(amanda,60)
+amanda.getbalance()
 
-phil=BankAccount(phil, Phil Colins, 82031892, 162738490,23)
+phil = BankAccount(Phil Collins,account_number,763)
 
-print_receipt(phil)
+phil.print_receipt()
 
-charles=BankAccount(charles, Charles Bronson, 45621271,162738490,2380)
-
-addinterest(charles)
+charles = BankAccount(Charles Bronson,account_number,25)
