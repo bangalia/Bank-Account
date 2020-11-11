@@ -7,8 +7,13 @@ class BankAccount:
     def __init__(self,full_name,account_number,balance):
         self.full_name = full_name
         self.account_number = randint()
-        self.balance = int(balance)
-        
+        self.balance = balance
+        balance = int(balance)
+
+amanda = BankAccount("Amanda_Fuller",account_number,2380) 
+phil = BankAccount("Phil Collins",account_number,763)
+charles = BankAccount("Charles Bronson",account_number,25)       
+
 def deposit(self,amount):
     self.balance += amount
     amount = input("How much would you like to deposit?")
@@ -21,7 +26,7 @@ def withdraw(self,amount):
         self.balance-=amount
         print("You withdrew:$",amount)
     else:
-        self.balance + overdraft = negbalance
+        balance + overdraft = negbalance
         print("Your balance is insufficient")
 
     
@@ -39,12 +44,8 @@ def print_receipt():
     print(routing_number)
     print(balance)
 
-amanda = BankAccount("Amanda_Fuller",account_number,2380)
 
 amanda.getbalance()
 
-phil = BankAccount("Phil Collins",account_number,763)
-
 phil.print_receipt()
 
-charles = BankAccount("Charles Bronson",account_number,25)
