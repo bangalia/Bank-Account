@@ -20,13 +20,13 @@ def deposit(self,amount):
 print(f"Amount deposited was ${amount}")
 
 def withdraw(self,amount):
-    overdraft= 10
+    overdraft= 10,
+    balance + overdraft = negbalance
     amount = int(input("How much would you like to withdraw?"))
     if self.balance>=amount:
         self.balance-=amount
         print("You withdrew:$",amount)
     else:
-        balance + overdraft = negbalance
         print("Your balance is insufficient")
 
     
